@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "babel src --watch -d dist",
+    "array": "node src/array.js",
+    "arrow": "node src/arrow.js",
+    "spread": "node ./src/spread.js",
+    "map": "node ./src/map_set.js",
+    "async": "node ./src/async.js",
+    "oo": "node ./src/oo.js"
+  },
+  "browserslist": "> 0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5"
+  }
+}
